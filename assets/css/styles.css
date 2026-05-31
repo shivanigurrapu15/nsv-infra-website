@@ -27,7 +27,7 @@ button, input, select, textarea { font: inherit; }
 .eyebrow { color: var(--orange); font-weight: 800; text-transform: uppercase; letter-spacing: .08em; font-size: .78rem; }
 h1, h2, h3 { font-family: Poppins, Inter, sans-serif; line-height: 1.08; margin: 0; color: var(--blue); letter-spacing: 0; }
 h1 { font-size: clamp(2.5rem, 5vw, 5.2rem); max-width: 900px; }
-h2 { font-size: clamp(2rem, 3.4vw, 3.4rem); }
+h2 { font-size: clamp(1.8rem, 2.8vw, 2.8rem); }
 h3 { font-size: 1.25rem; }
 p { margin: 0; color: var(--muted); }
 .lead { font-size: 1.08rem; max-width: 720px; }
@@ -138,6 +138,10 @@ svg { width: 20px; height: 20px; vertical-align: middle; }
 
 .card-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; }
 .service-card, .value-card, .testimonial-card, .process-card, .info-card {
+  .value-card h3 {
+    font-weight: 500;
+    line-height: 1.3;
+}
   background: var(--white);
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -218,8 +222,14 @@ textarea { min-height: 132px; resize: vertical; }
 .embed-box { min-height: 520px; border: 1px dashed var(--line); border-radius: 8px; overflow: hidden; background: var(--gray); }
 .embed-box iframe { width: 100%; height: 520px; border: 0; }
 .placeholder-note { padding: 18px; color: var(--muted); font-weight: 700; }
-.contact-grid { display: grid; grid-template-columns: .82fr 1.18fr; gap: 30px; }
-.contact-list { display: grid; gap: 14px; }
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+.contact-heading {
+    margin-bottom: 35px;
+    line-height: 1.1;
+}
+.contact-list {
+    margin-top: 20px;
+}
 .contact-list article { display: flex; gap: 12px; align-items: flex-start; }
 .contact-list > article > span {
   width: 34px;
