@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Request Quotation | NSV Infra Engineering Projects</title>
+  <meta name="description" content="Request a construction quotation from NSV Infra Engineering Projects for layout development, roads, and building construction.">
+  <meta property="og:title" content="Request a Quotation from NSV Infra">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header id="site-header"></header>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Quotation</span>
+        <h1>Request a clear estimate for your next construction project.</h1>
+        <p>Share your project type, location, budget, and requirement. Our team will reach out with the next steps.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container split">
+        <div>
+          <div class="section-head">
+            <span class="eyebrow">Lead Form</span>
+            <h2>Quotation request details</h2>
+            <p class="lead">This form is ready for Google Forms integration. Replace <strong>YOUR_GOOGLE_FORM_URL_HERE</strong> in <strong>assets/js/site-data.js</strong> with your published Google Form URL.</p>
+          </div>
+          <form data-success="Thank you for contacting NSV Infra Engineering Projects. Our team will reach out to you shortly.">
+            <div class="form-grid">
+              <label>Full Name<input required name="name" autocomplete="name"></label>
+              <label>Mobile Number<input required name="phone" autocomplete="tel"></label>
+              <label>Email<input type="email" name="email" autocomplete="email"></label>
+              <label>Project Type<select required name="project_type"><option value="">Select project type</option><option>Layout Development</option><option>Building Construction</option><option>CC Roads</option><option>BT Roads</option></select></label>
+              <label>Location<input required name="location"></label>
+              <label>Estimated Budget<input name="budget"></label>
+              <label class="full">Project Description<textarea required name="description"></textarea></label>
+            </div>
+            <div class="actions"><button class="btn primary" type="submit">Submit Request</button><a class="btn outline" data-whatsapp href="#">WhatsApp Instead</a></div>
+          </form>
+        </div>
+        <div>
+          <div class="embed-box">
+            <p class="placeholder-note">Google Form embed placeholder. Add the live form URL in the configuration file when ready.</p>
+            <iframe id="google-form-frame" title="NSV Infra quotation Google Form" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <a id="whatsapp-float" aria-label="WhatsApp NSV Infra" href="#">WA</a>
+  <footer id="site-footer"></footer>
+  <script src="assets/js/site-data.js"></script><script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects Portfolio | NSV Infra Engineering Projects</title>
+  <meta name="description" content="View NSV Infra project portfolio across layout projects, building projects, and road projects in Andhra Pradesh.">
+  <meta property="og:title" content="NSV Infra Project Portfolio">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/hero-construction.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header id="site-header"></header>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Projects</span>
+        <h1>Portfolio gallery for layouts, buildings, and road works.</h1>
+        <p>Project cards are generated from one editable data file for simple future expansion and CMS integration.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div id="project-filters" class="filters" aria-label="Project filters"></div>
+        <div id="project-grid" class="project-grid"></div>
+      </div>
+    </section>
+  </main>
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Project preview">
+    <div class="lightbox-card">
+      <div class="placeholder"></div>
+      <div class="lightbox-content">
+        <button id="lightbox-close" aria-label="Close project preview">X</button>
+        <h2 id="lightbox-title">Project</h2>
+        <p id="lightbox-text"></p>
+      </div>
+    </div>
+  </div>
+  <a id="whatsapp-float" aria-label="WhatsApp NSV Infra" href="#">WA</a>
+  <footer id="site-footer"></footer>
+  <script src="assets/js/site-data.js"></script><script src="assets/js/main.js"></script>
+</body>
+</html>
