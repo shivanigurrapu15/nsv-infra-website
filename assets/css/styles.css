@@ -180,7 +180,14 @@ svg { width: 20px; height: 20px; vertical-align: middle; }
 .timeline { display: grid; gap: 16px; }
 .timeline article { display: grid; grid-template-columns: 120px 1fr; gap: 20px; padding: 20px 0; border-bottom: 1px solid var(--line); }
 .timeline strong { color: var(--orange); font-family: Poppins, sans-serif; }
-.service-detail { display: grid; grid-template-columns: .72fr 1.28fr; gap: 32px; padding: 34px; border: 1px solid var(--line); border-radius: 8px; background: var(--white); margin-bottom: 24px; }
+.service-detail { display: grid; grid-template-columns: .72fr 1.28fr; gap: 32px; padding: 34px; border: 1px solid var(--line); border-radius: 8px; background: var(--white); margin-bottom: 100px; }
+.service-detail h2 {
+    margin-bottom: 20px;
+}
+
+.service-detail p {
+    margin-bottom: 30px;
+}
 .service-visual { min-height: 260px; border-radius: 8px; display: grid; place-items: center; color: var(--white); background: linear-gradient(135deg, rgba(10,37,64,.86), rgba(249,115,22,.72)), url("../images/services-construction.png") center / cover; font-weight: 800; }
 .columns-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 22px; }
 
