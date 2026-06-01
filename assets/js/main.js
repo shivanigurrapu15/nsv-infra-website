@@ -123,7 +123,7 @@
 
   function initWhatsApp() {
     var message = encodeURIComponent("Hello NSV Infra Engineering Projects,\nI am interested in your services.\n\nName:\nLocation:\nProject Type:\n\nPlease contact me.");
-    var link = "https://wa.me/" + data.company.whatsapp + "?text=" + message;
+    var link = "https://wa.me/919666257492?text=" + message;
     var floating = $("#whatsapp-float");
     if (floating) floating.href = link;
     all("[data-whatsapp]").forEach(function (el) { el.href = link; });
