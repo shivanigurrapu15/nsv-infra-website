@@ -304,3 +304,32 @@ textarea { min-height: 132px; resize: vertical; }
   .media-panel, .media-panel img { min-height: 300px; }
   dl { grid-template-columns: 1fr; }
 }
+.leaders-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:40px;
+margin-top:40px;
+}
+
+.leader-card{
+background:#fff;
+border:1px solid var(--line);
+border-radius:12px;
+padding:30px;
+text-align:center;
+}
+
+.leader-card img{
+width:100%;
+max-width:280px;
+height:320px;
+object-fit:cover;
+border-radius:12px;
+margin-bottom:20px;
+}
+
+.role{
+color:#F97316;
+font-weight:700;
+margin-bottom:15px;
+}
