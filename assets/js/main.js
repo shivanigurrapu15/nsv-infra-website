@@ -40,7 +40,7 @@
     }).join("");
    header.innerHTML =
   '<a class="brand" href="index.html">' +
-  '<img src="assets/images/logo.jpg" alt="NSV Infra Engineering Projects" class="logo-img">' +
+'<img src="assets/images/logo.png" alt="NSV Infra Engineering Projects" class="logo-img">' +
   '</a>' +
   '<button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">' + icon("menu") + '</button>' +
   '<nav class="site-nav" aria-label="Primary navigation">' + nav + '</nav>';
