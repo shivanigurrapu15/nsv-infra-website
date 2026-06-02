@@ -147,9 +147,9 @@ svg { width: 20px; height: 20px; vertical-align: middle; }
 
 .section-head h2,
 .section-head h2{
-    font-size: 2.3rem;
+    font-size: 2rem;
     line-height: 1.2;
-    max-width: 650px;
+    max-width: 600px;
 }
 .section-head p,
 .section-head p{
@@ -223,7 +223,10 @@ svg { width: 20px; height: 20px; vertical-align: middle; }
   background: linear-gradient(135deg, var(--blue), #12395e);
   color: var(--white);
 }
-.page-hero h1 { color: var(--white); font-size: clamp(2.35rem, 4.4vw, 4.2rem); }
+.page-hero h1{
+    font-size: clamp(1.9rem, 2.8vw, 3.2rem);
+    line-height: 1.15;
+}
 .page-hero p { color: rgba(255,255,255,.82); margin-top: 16px; max-width: 760px; }
 
 .timeline { display: grid; gap: 16px; }
@@ -231,7 +234,7 @@ svg { width: 20px; height: 20px; vertical-align: middle; }
 .timeline strong { color: var(--orange); font-family: Poppins, sans-serif; }
 .service-detail { display: grid; grid-template-columns: .72fr 1.28fr; gap: 32px; padding: 34px; border: 1px solid var(--line); border-radius: 8px; background: var(--white); margin-bottom: 100px; }
 .service-detail h2 {
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .service-detail p {
