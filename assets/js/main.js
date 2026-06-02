@@ -38,9 +38,9 @@
       var active = item[1] === path ? ' aria-current="page"' : "";
       return '<a href="' + item[1] + '"' + active + ">" + item[0] + "</a>";
     }).join("");
-    header.innerHTML =
+   header.innerHTML =
   '<a class="brand" href="index.html">' +
-  '<img src="assets/images/logo.jpeg" alt="NSV Infra Engineering Projects" class="logo-img">' +
+  '<img src="assets/images/logo.jpg" alt="NSV Infra Engineering Projects" class="logo-img">' +
   '</a>' +
   '<button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">' + icon("menu") + '</button>' +
   '<nav class="site-nav" aria-label="Primary navigation">' + nav + '</nav>';
