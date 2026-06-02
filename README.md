@@ -20,7 +20,7 @@ Static production-ready website deliverable for NSV Infra Engineering Projects.
 ## Integration Notes
 
 - Replace `YOUR_GOOGLE_FORM_URL_HERE` in `assets/js/site-data.js` with the published Google Form URL.
-- Replace `91 9666257499` and `+91 9666257499 ` with the real WhatsApp and phone numbers.
+- Replace `91 9177210909` and `+91 9177210909 ` with the real WhatsApp and phone numbers.
 - Replace social media placeholder links in `assets/js/main.js` when official profiles are available.
 
 Open `index.html` in a browser to preview the site.
