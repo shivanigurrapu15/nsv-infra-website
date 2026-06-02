@@ -35,7 +35,7 @@ h1 {
   line-height: 1.15;
 }
 h2 {
-  font-size: clamp(1.8rem, 2.5vw, 2.8rem);
+  font-size: clamp(1.7rem, 2.2vw, 2.2rem);
   line-height: 1.2;
   margin-bottom: 16px;
 }
@@ -145,11 +145,10 @@ svg { width: 20px; height: 20px; vertical-align: middle; }
     max-width: 700px;
 }
 
-.section-head h2,
 .section-head h2{
-    font-size: 2rem;
+    font-size: clamp(1.7rem, 2.2vw, 2.2rem);
     line-height: 1.2;
-    max-width: 600px;
+    max-width: 650px;
 }
 .section-head p,
 .section-head p{
@@ -234,6 +233,8 @@ svg { width: 20px; height: 20px; vertical-align: middle; }
 .timeline strong { color: var(--orange); font-family: Poppins, sans-serif; }
 .service-detail { display: grid; grid-template-columns: .72fr 1.28fr; gap: 32px; padding: 34px; border: 1px solid var(--line); border-radius: 8px; background: var(--white); margin-bottom: 100px; }
 .service-detail h2 {
+    font-size: clamp(1.7rem, 2.2vw, 2.2rem);
+    line-height: 1.2;
     margin-bottom: 16px;
 }
 
