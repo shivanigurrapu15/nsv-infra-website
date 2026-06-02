@@ -420,10 +420,13 @@ textarea { min-height: 132px; resize: vertical; }
     display:block;
 }
 .footer-logo{
-    width:90px;
-    height:auto;
-    display:block;
-    margin-bottom:12px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #fff;
+    padding: 8px;
+    display: block;
 }
 #site-header{
     min-height:90px;
