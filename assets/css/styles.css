@@ -305,31 +305,32 @@ textarea { min-height: 132px; resize: vertical; }
   dl { grid-template-columns: 1fr; }
 }
 .leaders-grid{
-display:grid;
-grid-template-columns:repeat(2,1fr);
-gap:40px;
-margin-top:40px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:50px;
+    margin-top:40px;
 }
 
 .leader-card{
-background:#fff;
-border:1px solid var(--line);
-border-radius:12px;
-padding:30px;
-text-align:center;
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
 }
 
 .leader-card img{
-width:100%;
-max-width:280px;
-height:320px;
-object-fit:cover;
-border-radius:12px;
-margin-bottom:20px;
+    width:250px;
+    height:300px;
+    object-fit:cover;
+    border-radius:12px;
+    display:block;
+    margin:0 auto 20px;
 }
 
 .role{
-color:#F97316;
-font-weight:700;
-margin-bottom:15px;
+    color:var(--orange);
+    font-weight:700;
+    margin-bottom:15px;
 }
