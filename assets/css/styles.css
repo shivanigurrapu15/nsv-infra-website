@@ -227,7 +227,7 @@ svg { width: 20px; height: 20px; vertical-align: middle; }
     font-size: clamp(1.9rem, 2.8vw, 3.2rem);
     line-height: 1.15;
 }
-.page-hero p { color: rgba(255,255,255,.82); margin-top: 16px; max-width: 760px; }
+.page-hero p { color: rgba(255,255,255,.82); margin-top: 16px; max-width: 750px; }
 
 .timeline { display: grid; gap: 16px; }
 .timeline article { display: grid; grid-template-columns: 120px 1fr; gap: 20px; padding: 20px 0; border-bottom: 1px solid var(--line); }
