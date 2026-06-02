@@ -315,7 +315,7 @@ textarea { min-height: 132px; resize: vertical; }
     background:#fff;
     border:1px solid var(--line);
     border-radius:12px;
-    padding:30px;
+    padding:20px;
     text-align:center;
     
     display:flex;
@@ -324,13 +324,13 @@ textarea { min-height: 132px; resize: vertical; }
 }
 
 .leader-card img{
-    width:260px;
-    height:320px;
+    width:180px;
+    height:220px;
     object-fit:cover;
     object-position:center top;
     border-radius:12px;
     display:block;
-    margin:0 auto 25px auto;
+    margin:0 auto 15px auto;
 }
 
 .role{
