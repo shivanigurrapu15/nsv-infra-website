@@ -142,13 +142,28 @@ svg { width: 20px; height: 20px; vertical-align: middle; }
 
 .section-head { display: grid; gap: 14px; margin-bottom: 36px; }
 .section-head {
-    max-width: 800px;
+    max-width: 700px;
 }
 
 .section-head h2,
+.section-head h2{
+    font-size: 2.3rem;
+    line-height: 1.2;
+    max-width: 650px;
+}
 .section-head p,
+.section-head p{
+    margin-top: 20px;
+    line-height: 1.8;
+    max-width: 700px;
+}
 .section-head .lead {
     text-align: left;
+  
+}
+.section-head .actions,
+.section-head .cta{
+    margin-top: 30px;
 }
 .split { display: grid; grid-template-columns: 1.02fr .98fr; gap: 54px; align-items: center; }
 .media-panel { border-radius: 8px; overflow: hidden; min-height: 420px; box-shadow: var(--shadow); background: var(--gray); }
