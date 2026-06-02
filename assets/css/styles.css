@@ -419,6 +419,12 @@ textarea { min-height: 132px; resize: vertical; }
     width:auto;
     display:block;
 }
+.footer-logo{
+    width:90px;
+    height:auto;
+    display:block;
+    margin-bottom:12px;
+}
 #site-header{
     min-height:90px;
 }
