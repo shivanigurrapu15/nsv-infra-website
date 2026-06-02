@@ -234,7 +234,7 @@ svg { width: 20px; height: 20px; vertical-align: middle; }
 .timeline { display: grid; gap: 16px; }
 .timeline article { display: grid; grid-template-columns: 120px 1fr; gap: 20px; padding: 20px 0; border-bottom: 1px solid var(--line); }
 .timeline strong { color: var(--orange); font-family: Poppins, sans-serif; }
-.service-detail { display: grid; grid-template-columns: .72fr 1.28fr; gap: 32px; padding: 34px; border: 1px solid var(--line); border-radius: 8px; background: var(--white); margin-bottom: 100px; }
+.service-detail { display: grid; grid-template-columns: .72fr 1.28fr; gap: 32px; padding: 34px; border: 1px solid var(--line); border-radius: 8px; background: var(--white); margin-bottom: 160px; }
 .service-detail h2 {
     font-size: clamp(1.7rem, 2.2vw, 2.2rem);
     line-height: 1.2;
