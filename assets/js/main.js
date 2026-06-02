@@ -39,9 +39,11 @@
       return '<a href="' + item[1] + '"' + active + ">" + item[0] + "</a>";
     }).join("");
     header.innerHTML =
-      '<a class="brand" href="index.html"><span class="brand-mark">NSV</span><span><strong>' + data.company.shortName + '</strong><small>Engineering Projects</small></span></a>' +
-      '<button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">' + icon("menu") + '</button>' +
-      '<nav class="site-nav" aria-label="Primary navigation">' + nav + '</nav>';
+  '<a class="brand" href="index.html">' +
+  '<img src="assets/images/logo.png" alt="NSV Infra Engineering Projects" class="logo-img">' +
+  '</a>' +
+  '<button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">' + icon("menu") + '</button>' +
+  '<nav class="site-nav" aria-label="Primary navigation">' + nav + '</nav>';
     footer.innerHTML =
       '<div class="footer-grid"><div><a class="brand footer-brand" href="index.html"><span class="brand-mark">NSV</span><span><strong>' + data.company.name + '</strong><small>Construction and Infrastructure</small></span></a><p>Engineering-led infrastructure development, road construction, layout development, and building projects across Andhra Pradesh.</p></div>' +
       '<div><h3>Quick Links</h3>' + links.map(function (item) { return '<a href="' + item[1] + '">' + item[0] + '</a>'; }).join("") + '</div>' +
