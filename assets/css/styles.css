@@ -170,10 +170,10 @@ svg { width: 20px; height: 20px; vertical-align: middle; }
 .split { display: grid; grid-template-columns: 1.02fr .98fr; gap: 54px; align-items: center; }
 .media-panel { border-radius: 8px; overflow: hidden; min-height: 420px; box-shadow: var(--shadow); background: var(--gray); }
 .media-panel img { width: 100%; height: 100%; object-fit: cover; min-height: 420px; }
-.feature-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 28px; }
+.feature-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin-top: 28px; }
 .feature-list li, .check-list li {
   list-style: none;
-  padding: 12px 14px;
+  padding: 16px 18px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--white);
