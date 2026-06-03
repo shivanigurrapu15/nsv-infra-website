@@ -403,6 +403,7 @@ textarea { min-height: 132px; resize: vertical; }
     border-top:5px solid #f97316;
     border-radius:16px;
     padding:24px;
+    min-height:260px;
     box-shadow:0 8px 24px rgba(0,0,0,.08);
     transition:all .3s ease;
 }
@@ -421,6 +422,9 @@ textarea { min-height: 132px; resize: vertical; }
     margin-bottom:20px;
 }
 .leader-card-content{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
     text-align:left;
     flex:1;
 }
@@ -436,8 +440,9 @@ textarea { min-height: 132px; resize: vertical; }
 .role{
     color:#f97316;
     font-weight:700;
-    font-size:1rem;
-    margin-bottom:18px;
+    font-size:.95rem;
+    margin-bottom:12px;
+    white-space:nowrap;
 }
 .logo-img,
 .footer-logo{
