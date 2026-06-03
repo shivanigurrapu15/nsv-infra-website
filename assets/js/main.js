@@ -6,7 +6,6 @@
     ["About Us", "about.html"],
     ["Services", "services.html"],
     ["Projects", "projects.html"],
-    ["Quotation", "quotation.html"],
     ["Contact", "contact.html"]
   ];
 

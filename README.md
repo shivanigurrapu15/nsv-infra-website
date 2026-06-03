@@ -8,7 +8,6 @@ Static production-ready website deliverable for NSV Infra Engineering Projects.
 - `about.html`
 - `services.html`
 - `projects.html`
-- `quotation.html`
 - `contact.html`
 
 ## Editable Content
