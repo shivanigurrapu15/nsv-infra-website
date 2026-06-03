@@ -391,9 +391,9 @@ textarea { min-height: 132px; resize: vertical; }
 
 .leaders-grid{
     display:grid;
-    grid-template-columns:repeat(2,1fr);
+    grid-template-columns:repeat(2, minmax(320px, 500px));
+    justify-content:center;
     gap:40px;
-    align-items:stretch;
 }
   
 .leader-card{
@@ -402,6 +402,8 @@ textarea { min-height: 132px; resize: vertical; }
     border-radius:40px;
     padding:40px 30px;
     min-height:450px;
+    max-width:450px;
+margin:0 auto;
     display:flex;
     flex-direction:column;
     align-items:center;
