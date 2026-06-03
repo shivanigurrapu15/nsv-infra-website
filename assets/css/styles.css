@@ -395,12 +395,14 @@ textarea { min-height: 132px; resize: vertical; }
 }
 
 .leader-card{
+    display:flex;
+    align-items:flex-start;
+    gap:32px;
     background:#fff;
     border:none;
     border-top:5px solid #f97316;
     border-radius:16px;
-    padding:32px;
-    text-align:center;
+    padding:24px;
     box-shadow:0 8px 24px rgba(0,0,0,.08);
     transition:all .3s ease;
 }
@@ -417,6 +419,10 @@ textarea { min-height: 132px; resize: vertical; }
     object-position:center top;
     border-radius:12px;
     margin-bottom:20px;
+}
+.leader-card-content{
+    text-align:left;
+    flex:1;
 }
 .leader-card h3{
     font-size:1.6rem;
