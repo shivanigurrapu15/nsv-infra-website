@@ -414,19 +414,16 @@ textarea { min-height: 132px; resize: vertical; }
     font-weight:700;
     margin-bottom:15px;
 }
-.logo-img{
-    height:110px;
-    width:auto;
-    display:block;
-}
+.logo-img,
 .footer-logo{
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    object-fit: cover;
-    background: #fff;
-    padding: 8px;
-    display: block;
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    object-fit:cover;
+    background:#fff;
+    padding:8px;
+    border:3px solid #f97316;
+    display:block;
 }
 #site-header{
     min-height:90px;
