@@ -470,3 +470,17 @@ textarea { min-height: 132px; resize: vertical; }
     margin:0 auto;
     text-align:center;
 }
+body{
+    background:#eef2f6;
+    padding:6px;
+}
+
+#site-header{
+    border-radius:18px 18px 0 0;
+}
+
+.hero,
+.page-hero{
+    border-radius:0 0 24px 24px;
+    overflow:hidden;
+}
