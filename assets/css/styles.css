@@ -28,14 +28,20 @@ button, input, select, textarea { font: inherit; }
 }
 .section { padding: 110px 0; }
 .section.gray { background: var(--gray); }
-.eyebrow { color: var(--orange); font-weight: 800; text-transform: uppercase; letter-spacing: .08em; font-size: .78rem; }
+.eyebrow {
+  color: var(--orange);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-size: 1.25rem;
+}
 h1, h2, h3 { font-family: Poppins, Inter, sans-serif; line-height: 1.08; margin: 0; color: var(--blue); letter-spacing: 0; }
 .page-hero h1 {
   color: var(--white) !important;
 }
 h1 {
-  font-size: clamp(1.9rem, 2.8vw, 3.2rem);
-  line-height: 1.15;
+  font-size: clamp(1.6rem, 2.2vw, 2.4rem);
+    line-height: 1.15;
 }
 h2 {
   font-size: clamp(1.7rem, 2.2vw, 2.2rem);
@@ -261,9 +267,41 @@ svg { width: 20px; height: 20px; vertical-align: middle; }
 .project-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
 .project-card { border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--white); cursor: pointer; box-shadow: 0 12px 30px rgba(10,37,64,.06); }
 .project-image { aspect-ratio: 4 / 3; display: grid; place-items: center; color: var(--white); font-family: Poppins, sans-serif; font-weight: 800; }
-.placeholder { background: linear-gradient(135deg, rgba(10,37,64,.9), rgba(249,115,22,.65)), url("../images/hero-construction.png") center / cover; }
-.p1, .p4 { background-image: linear-gradient(135deg, rgba(10,37,64,.88), rgba(249,115,22,.58)), url("../images/services-construction.png"); }
-.p2, .p5 { background-image: linear-gradient(135deg, rgba(10,37,64,.88), rgba(249,115,22,.58)), url("../images/team-engineering.png"); }
+.p0{
+    background:
+    linear-gradient(rgba(10,37,64,.45),rgba(10,37,64,.45)),
+    url("../images/layout development.jpg") center/cover;
+}
+
+.p1{
+    background:
+    linear-gradient(rgba(10,37,64,.45),rgba(10,37,64,.45)),
+    url("../images/cc roads.jpeg") center/cover;
+}
+
+.p2{
+    background:
+    linear-gradient(rgba(10,37,64,.45),rgba(10,37,64,.45)),
+    url("../images/cbs.jpeg") center/cover;
+}
+
+.p3{
+    background:
+    linear-gradient(rgba(10,37,64,.45),rgba(10,37,64,.45)),
+    url("../images/layout development.jpg") center/cover;
+}
+
+.p4{
+    background:
+    linear-gradient(rgba(10,37,64,.45),rgba(10,37,64,.45)),
+    url("../images/BT road.jpeg") center/cover;
+}
+
+.p5{
+    background:
+    linear-gradient(rgba(10,37,64,.45),rgba(10,37,64,.45)),
+    url("../images/BPP.jpeg") center/cover;
+}
 .project-body { padding: 20px; }
 .project-body > span { color: var(--orange); font-weight: 800; font-size: .82rem; }
 .project-body p { margin-top: 10px; }
