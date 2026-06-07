@@ -270,37 +270,37 @@ svg { width: 20px; height: 20px; vertical-align: middle; }
 .p0{
     background:
     linear-gradient(rgba(10,37,64,.45),rgba(10,37,64,.45)),
-    url("../images/layout development.jpg") center/cover;
+    url("../images/projects/layout-development.jpg") center/cover;
 }
 
 .p1{
     background:
     linear-gradient(rgba(10,37,64,.45),rgba(10,37,64,.45)),
-    url("../images/cc roads.jpeg") center/cover;
+    url("../images/projects/cc-road.jpg") center/cover;
 }
 
 .p2{
     background:
     linear-gradient(rgba(10,37,64,.45),rgba(10,37,64,.45)),
-    url("../images/cbs.jpeg") center/cover;
+    url("../images/projects/commercial-building.jpg") center/cover;
 }
 
 .p3{
     background:
     linear-gradient(rgba(10,37,64,.45),rgba(10,37,64,.45)),
-    url("../images/layout development.jpg") center/cover;
+    url("../images/projects/layout-development.jpg") center/cover;
 }
 
 .p4{
     background:
     linear-gradient(rgba(10,37,64,.45),rgba(10,37,64,.45)),
-    url("../images/BT road.jpeg") center/cover;
+    url("../images/projects/bt-road.jpg") center/cover;
 }
 
 .p5{
     background:
     linear-gradient(rgba(10,37,64,.45),rgba(10,37,64,.45)),
-    url("../images/BPP.jpeg") center/cover;
+    url("../images/projects/business-plaza.jpg") center/cover;
 }
 .project-body { padding: 20px; }
 .project-body > span { color: var(--orange); font-weight: 800; font-size: .82rem; }
