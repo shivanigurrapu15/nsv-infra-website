@@ -268,27 +268,27 @@ svg { width: 20px; height: 20px; vertical-align: middle; }
 .project-card { border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--white); cursor: pointer; box-shadow: 0 12px 30px rgba(10,37,64,.06); }
 .project-image { aspect-ratio: 4 / 3; display: grid; place-items: center; color: var(--white); font-family: Poppins, sans-serif; font-weight: 800; }
 .p0{
-    background-image:url("../images/projects/layout-development.jpg");
+    background-image:url("../images/Projects/layout-development.jpg");
 }
 
 .p1{
-    background-image:url("../images/projects/cc-road.jpg");
+    background-image:url("../images/Projects/cc-road.jpg");
 }
 
 .p2{
-    background-image:url("../images/projects/commercial-building.jpg");
+    background-image:url("../images/Projects/commercial-building.jpg");
 }
 
 .p3{
-    background-image:url("../images/projects/layout-development.jpg");
+    background-image:url("../images/Projects/layout-development.jpg");
 }
 
 .p4{
-    background-image:url("../images/projects/bt-road.jpg");
+    background-image:url("../images/Projects/bt-road.jpg");
 }
 
 .p5{
-    background-image:url("../images/projects/business-plaza.jpg");
+    background-image:url("../images/Projects/business-plaza.jpg");
 }
 
 .project-image{
