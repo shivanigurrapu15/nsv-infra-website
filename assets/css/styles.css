@@ -554,3 +554,21 @@ body{
         height: 140px;
     }
 }
+
+.layout-img{
+    background-image:url("../images/Projects/layout-development.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.road-img{
+    background-image:url("../images/Projects/cc-road.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.building-img{
+    background-image:url("../images/Projects/commercial-building.jpg");
+    background-size:cover;
+    background-position:center;
+}
