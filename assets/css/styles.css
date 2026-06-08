@@ -572,3 +572,15 @@ body{
     background-size:cover;
     background-position:center;
 }
+
+.info-card p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #4b5563;
+    margin-top: 10px;
+}
+
+.info-card h3{
+    display:none;
+}
