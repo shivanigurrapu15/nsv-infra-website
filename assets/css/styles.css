@@ -584,3 +584,10 @@ body{
 .info-card h3{
     display:none;
 }
+
+.adibatla-img{
+    background-image:url("../images/Projects/adibatla-layout.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
