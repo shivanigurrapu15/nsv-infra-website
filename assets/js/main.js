@@ -47,7 +47,7 @@
       '<div class="footer-grid"><div><a class="brand footer-brand" href="index.html"><img src="assets/images/logo.png" alt="NSV Infra Engineering Projects" class="footer-logo"><span><strong>' + data.company.name + '</strong><small>Construction and Infrastructure</small></span></a><p>Engineering-led infrastructure development, road construction, layout development, and building projects across Andhra Pradesh.</p></div>' +
       '<div><h3>Quick Links</h3>' + links.map(function (item) { return '<a href="' + item[1] + '">' + item[0] + '</a>'; }).join("") + '</div>' +
       '<div><h3>Services</h3>' + data.services.map(function (s) { return '<a href="services.html#' + slug(s.title) + '">' + s.title + '</a>'; }).join("") + '</div>' +
-      '<div><h3>Contact</h3><p>' + data.company.address + '</p><p>' + data.company.phone + '</p><p>' + data.company.email + '</p><div class="socials"><a aria-label="Facebook" href="#">f</a><a aria-label="LinkedIn" href="#">in</a><a aria-label="Instagram" href="#">ig</a></div></div></div>' +
+      '<div><h3>Contact</h3><p>' + data.company.address + '</p><p>' + data.company.phone + '</p><p>' + data.company.email + '</p><div class="socials"><a aria-label="LinkedIn" href="#">in</a><a aria-label="Instagram" href="https://www.instagram.com/ie.nsv.infra?igsh=MTI4ZDkzb2hqenczdg==" target="_blank">ig</a></div></div></div>' +
       '<div class="copyright">&copy; 2026 ' + data.company.name + '. All Rights Reserved.</div>';
     $(".nav-toggle").addEventListener("click", function () {
       document.body.classList.toggle("nav-open");
