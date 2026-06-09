@@ -605,3 +605,10 @@ body{
     background-position:center;
     background-repeat:no-repeat;
 }
+
+.sangareddy-img{
+    background-image:url("../images/Projects/sangareddy-layout.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}

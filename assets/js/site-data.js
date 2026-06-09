@@ -66,6 +66,8 @@ window.NSV = {
 ["Building Projects","Premium Residential Residency","Kongara Kalan","Residential building project featuring quality construction and structural excellence.","2023"],
 
 ["Road Projects","Township Asphalt Roads","Vanasthalipuram","BT road execution across township internal circulation routes.","2022"]
+
+["Layout Projects","","Sangareddy","Integrated layout development with internal roads, drainage systems, and infrastructure planning.","2025"],
 ],
 
 testimonials: [

@@ -87,11 +87,15 @@
 (p[2] === "Adibatla" ? "adibatla-img" :
  p[2] === "Vanasthalipuram" ? "vanasthalipuram-img" :
  p[2] === "Medchal" ? "medchal-img" :
+ p[2] === "Sangareddy" ? "sangareddy-img" :
  p[0] === "Layout Projects" ? "layout-img" :
  p[0] === "Road Projects" ? "road-img" :
  "building-img") +
-'"><span>' + p[0].replace(" Projects","") + '</span></div>' +
-'<div class="project-body"><span>' + p[0] + '</span><h3>' + p[1] + '</h3><p>' + p[3] + '</p><dl><dt>Location</dt><dd>' + p[2] + '</dd></dl><dl><dt>Completion</dt><dd>' + p[4] + '</dd></dl></div></article>';
+'"><span>' + p[0].replace(" Projects","") + '</span></div>' + '<div class="project-body"><span>' + p[0] + '</span>'
++ (p[1] ? '<h3>' + p[1] + '</h3>' : '')
++ '<p>' + p[3] + '</p>'
++ '<dl><div><dt>Location</dt><dd>' + p[2] + '</dd></div>'
++ '<div><dt>Completion</dt><dd>' + p[4] + '</dd></div></dl></div></article>';
       }).join("");
     }
     render("All");
