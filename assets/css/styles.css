@@ -591,3 +591,10 @@ body{
     background-position:center;
     background-repeat:no-repeat;
 }
+
+.vanasthalipuram-img{
+    background-image:url("../images/Projects/vanasthalipuram-road.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
