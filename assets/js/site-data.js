@@ -47,27 +47,27 @@ window.NSV = {
     }
   ],
   projects: [
-  ["Layout Projects","Green Valley Township","Uppal","Integrated plotted development with internal roads, drainage, and utility infrastructure.","2026"],
+  ["Layout Projects","Uppal Layout Development","Uppal","Integrated plotted development with internal roads, drainage, and utility infrastructure.","2026"],
 
-["Road Projects","Mandala CC Road Corridor","LB Nagar","High-strength concrete road package designed for durable urban connectivity.","2025"],
+["Road Projects","LB Nagar Road Infrastructure","LB Nagar","High-strength concrete road package designed for durable urban connectivity.","2025"],
 
 ["Layout Projects","Medchal Layout Development","Medchal","Integrated plotted development with internal roads, drainage, and utility infrastructure.","2025"],
 
-["Layout Projects","Palm Enclave Layout","Adibatla","Residential layout development with site preparation, road formation, and stormwater planning.","2024"],
+["Layout Projects","Adibatla Layout Development","Adibatla","Residential layout development with site preparation, road formation, and stormwater planning.","2024"],
 
-["Road Projects","Urban BT Road Network","Hayathnagar","Bituminous road development project supporting smooth regional transportation.","2024"],
+["Road Projects","Hayathnagar BT Road Works","Hayathnagar","Bituminous road development project supporting smooth regional transportation.","2024"],
 
-["Building Projects","NSV Business Center","Kukatpally","Commercial office development with contemporary infrastructure facilities.","2024"],
+["Building Projects","Kukatpally Commercial Complex","Kukatpally","Commercial office development with contemporary infrastructure facilities.","2024"],
 
-["Road Projects","Kapra Concrete Road Project","Kapra","Concrete road construction with drainage integration and long-term durability.","2023"],
+["Road Projects","Kapra Concrete Road Works","Kapra","Concrete road construction with drainage integration and long-term durability.","2023"],
 
-["Layout Projects","Sunrise County Development","Pedda Amberpet","Premium plotted community featuring organized road networks and landscaping facilities.","2023"],
+["Layout Projects","Pedda Amberpet Layout Development","Pedda Amberpet","Premium plotted community featuring organized road networks and landscaping facilities.","2023"],
 
-["Building Projects","Premium Residential Residency","Kongara Kalan","Residential building project featuring quality construction and structural excellence.","2023"],
+["Building Projects","Kongara Kalan Residential Project","Kongara Kalan","Residential building project featuring quality construction and structural excellence.","2023"],
 
-["Road Projects","Township Asphalt Roads","Vanasthalipuram","BT road execution across township internal circulation routes.","2022"]
+["Road Projects","Vanasthalipuram Road Development","Vanasthalipuram","BT road execution across township internal circulation routes.","2022"],
 
-["Layout Projects","","Sangareddy","Integrated layout development with internal roads, drainage systems, and infrastructure planning.","2025"],
+["Layout Projects","","Sangareddy","Integrated layout development with internal roads, drainage systems, and infrastructure planning.","2025"]
 ],
 
 testimonials: [
