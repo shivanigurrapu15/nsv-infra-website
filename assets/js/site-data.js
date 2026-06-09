@@ -67,7 +67,7 @@ window.NSV = {
 
 ["Road Projects","Vanasthalipuram Road Development","Vanasthalipuram","BT road execution across township internal circulation routes.","2022"],
 
-["Layout Projects","","Sangareddy","Integrated layout development with internal roads, drainage systems, and infrastructure planning.","2025"]
+["Layout Projects","Sangareddy Infrastructure Project","Sangareddy","Integrated layout development with internal roads, drainage systems, and infrastructure planning.","2025"]
 ],
 
 testimonials: [
