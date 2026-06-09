@@ -91,6 +91,7 @@
  p[2] === "LB Nagar" ? "lb-nagar-img" :
  p[2] === "Hayathnagar" ? "hayathnagar-img" :
  p[2] === "Vanasthalipuram" ? "vanasthalipuram-img" :
+ p[2] === "Kukatpally" ? "kukatpally-img" :
  p[0] === "Layout Projects" ? "layout-img" :
  p[0] === "Road Projects" ? "road-img" :
  "building-img") +
