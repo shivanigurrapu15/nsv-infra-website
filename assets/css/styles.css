@@ -598,3 +598,10 @@ body{
     background-position:center;
     background-repeat:no-repeat;
 }
+
+.medchal-img{
+    background-image:url("../images/Projects/medchal-layout.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}

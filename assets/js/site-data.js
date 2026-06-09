@@ -51,7 +51,7 @@ window.NSV = {
 
 ["Road Projects","Mandala CC Road Corridor","LB Nagar","High-strength concrete road package designed for durable urban connectivity.","2025"],
 
-["Building Projects","Sri Heights Commercial Tower","Madhapur","Multi-storey commercial construction with modern engineering standards.","2025"],
+["Layout Projects","Medchal Layout Development","Medchal","Integrated plotted development with internal roads, drainage, and utility infrastructure.","2025"],
 
 ["Layout Projects","Palm Enclave Layout","Adibatla","Residential layout development with site preparation, road formation, and stormwater planning.","2024"],
 

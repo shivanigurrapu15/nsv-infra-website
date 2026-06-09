@@ -86,6 +86,7 @@
 '<div class="project-image placeholder ' +
 (p[2] === "Adibatla" ? "adibatla-img" :
  p[2] === "Vanasthalipuram" ? "vanasthalipuram-img" :
+ p[2] === "Medchal" ? "medchal-img" :
  p[0] === "Layout Projects" ? "layout-img" :
  p[0] === "Road Projects" ? "road-img" :
  "building-img") +
