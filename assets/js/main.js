@@ -85,9 +85,12 @@
        return '<article class="project-card" data-index="' + index + '">' +
 '<div class="project-image placeholder ' +
 (p[2] === "Adibatla" ? "adibatla-img" :
- p[2] === "Vanasthalipuram" ? "vanasthalipuram-img" :
  p[2] === "Medchal" ? "medchal-img" :
  p[2] === "Sangareddy" ? "sangareddy-img" :
+ p[2] === "Pedda Amberpet" ? "pedda-amberpet-img" :
+ p[2] === "LB Nagar" ? "lb-nagar-img" :
+ p[2] === "Hayathnagar" ? "hayathnagar-img" :
+ p[2] === "Vanasthalipuram" ? "vanasthalipuram-img" :
  p[0] === "Layout Projects" ? "layout-img" :
  p[0] === "Road Projects" ? "road-img" :
  "building-img") +

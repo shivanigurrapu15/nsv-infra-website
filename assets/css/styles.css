@@ -612,3 +612,24 @@ body{
     background-position:center;
     background-repeat:no-repeat;
 }
+
+.pedda-amberpet-img{
+    background-image:url("../images/Projects/pedda-amberpet-layout.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.lb-nagar-img{
+    background-image:url("../images/Projects/lb-nagar-road.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.hayathnagar-img{
+    background-image:url("../images/Projects/hayathnagar-road.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
